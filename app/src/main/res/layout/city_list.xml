@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".City">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2F1D1A"
+        android:id="@+id/monument_name"
+        tools:text="Plaza de toros de las Ventas"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="318dp"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:id="@+id/monument_photo"
+        android:src="@drawable/ventas"/>
+
+    <LinearLayout
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#2F1D1A"
+        android:id="@+id/monument_text"
+        tools:text="Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/text_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="18dp"
+        android:paddingLeft="40dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2F1D1A"
+            android:id="@+id/monument_telephone"
+            tools:text="+34 955 761 739"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2F1D1A"
+            android:id="@+id/monument_timetable"
+            tools:text="From 9 to 12 and 15 to 20"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="18dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/address"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="#2F1D1A"
+            android:id="@+id/monument_address"
+            android:text="Calle de Alcalá, 237, 28028 Madrid"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

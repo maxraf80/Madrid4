@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="udacity.com.madrid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/madrid"
+            android:onClick="openMadrid"
+            android:id="@+id/madrid"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/food"
+            android:onClick="openRestaurants"
+            android:id="@+id/food"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hotel"
+            android:id="@+id/hotel"
+            android:onClick="openAcomodation"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ocionocturno"
+            android:onClick="openNighLife"
+            android:id="@+id/nightlife"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/museomadrid"
+            android:onClick="openMuseums"
+            android:id="@+id/museums"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/taxitwo"
+            android:onClick="openTransport"
+            android:id="@+id/taxi"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -17,4 +17,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent madridIntent = new Intent(MainActivity.this, Monuments.class);
-                startActivity(madridIntent);}});}}
+                startActivity(madridIntent);
+            }
+        });
+
+        ImageView paella = (ImageView) findViewById(R.id.food);
+        paella.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent foodIntent = new Intent(MainActivity.this, Restaurants.class);
+                startActivity(foodIntent);
+            }
+        });
+
+
+    }
+}

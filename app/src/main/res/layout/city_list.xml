@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".City">
 
     <LinearLayout
@@ -13,21 +13,21 @@
         android:orientation="vertical">
 
     <TextView
+        android:id="@+id/monument_name"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#2F1D1A"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#2F1D1A"
-        android:id="@+id/monument_name"
-        tools:text="Plaza de toros de las Ventas"
-        android:gravity="center"/>
+        tools:text="Plaza de toros de las Ventas" />
 
 
     <ImageView
+        android:id="@+id/monument_photo"
         android:layout_width="318dp"
         android:layout_height="197dp"
         android:layout_gravity="center"
-        android:id="@+id/monument_photo"
         android:src="@drawable/ventas"/>
 
     <LinearLayout
@@ -39,13 +39,13 @@
 
 
     <TextView
+        android:id="@+id/monument_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:textSize="16sp"
+        android:layout_marginTop="10dp"
         android:textColor="#2F1D1A"
-        android:id="@+id/monument_text"
+        android:textSize="16sp"
         tools:text="Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua"/>
 
 
@@ -54,30 +54,31 @@
         android:id="@+id/text_container2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:paddingTop="18dp"
+        android:orientation="horizontal"
         android:paddingLeft="40dp"
+        android:paddingTop="18dp"
         >
 
 
         <TextView
+            android:id="@+id/monument_telephone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:gravity="left"
+            android:onClick="Calling"
             android:textColor="#2F1D1A"
-            android:id="@+id/monument_telephone"
-            tools:text="+34 955 761 739"
-            android:gravity="left"/>
+            android:textSize="15sp"
+            tools:text="+34 955 761 739" />
 
         <TextView
+            android:id="@+id/monument_timetable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="13sp"
-            android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:textColor="#2F1D1A"
-            android:id="@+id/monument_timetable"
+            android:textSize="13sp"
+            android:textStyle="bold"
             tools:text="From 9 to 12 and 15 to 20"/>
     </LinearLayout>
 
@@ -85,8 +86,8 @@
             android:id="@+id/text_container3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
             android:paddingTop="18dp">
 
         <ImageView
@@ -96,13 +97,13 @@
             android:src="@drawable/address"/>
 
         <TextView
+            android:id="@+id/monument_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="30dp"
-            android:textColor="#2F1D1A"
-            android:id="@+id/monument_address"
-            android:text="Calle de Alcalá, 237, 28028 Madrid"/>
+            android:text="Calle de Alcalá, 237, 28028 Madrid"
+            android:textColor="#2F1D1A" />
 
     </LinearLayout>
 

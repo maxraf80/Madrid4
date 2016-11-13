@@ -1,4 +1,5 @@
 package udacity.com.madrid;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +11,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class CityAdapter extends ArrayAdapter <City> { public CityAdapter (Context context, ArrayList<City> city) {super(context,0,city);}
-
+public class CityAdapter extends ArrayAdapter<City> {
+    public CityAdapter
+            (Context context, ArrayList<City> city) {
+        super(context, 0, city);
+    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -34,12 +38,16 @@ public class CityAdapter extends ArrayAdapter <City> { public CityAdapter (Conte
         TextView timetable = (TextView) listItemView.findViewById(R.id.monument_timetable);
         timetable.setText(currentCity.getTimetable());
 
+        TextView address = (TextView) listItemView.findViewById(R.id.monument_address);
+        address.setText(currentCity.getAddress());
+
         ImageView photo = (ImageView) listItemView.findViewById(R.id.monument_photo);
         photo.setImageResource(currentCity.getImageResourceId());
 
 
-
-         return listItemView;}}
+        return listItemView;
+    }
+}
 
 
 

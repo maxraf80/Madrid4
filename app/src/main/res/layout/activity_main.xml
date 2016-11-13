@@ -16,23 +16,21 @@
         android:weightSum="2">
 
         <ImageView
+            android:id="@+id/madrid"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_marginRight="4dp"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/madrid"
-            android:onClick="openMadrid"
-            android:id="@+id/madrid"/>
+            android:src="@drawable/madrid" />
 
         <ImageView
+            android:id="@+id/food"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/food"
-            android:onClick="openRestaurants"
-            android:id="@+id/food"/>
+            android:src="@drawable/food" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,23 +41,23 @@
         android:weightSum="2">
 
         <ImageView
+            android:id="@+id/hotel"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_marginRight="4dp"
             android:layout_weight="1"
+            android:onClick="openAcomodation"
             android:scaleType="centerCrop"
-            android:src="@drawable/hotel"
-            android:id="@+id/hotel"
-            android:onClick="openAcomodation"/>
+            android:src="@drawable/hotel" />
 
         <ImageView
+            android:id="@+id/nightlife"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ocionocturno"
             android:onClick="openNighLife"
-            android:id="@+id/nightlife"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/ocionocturno" />
     </LinearLayout>
 
     <LinearLayout
@@ -71,23 +69,23 @@
         android:weightSum="2">
 
         <ImageView
+            android:id="@+id/museums"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_marginRight="4dp"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/museomadrid"
             android:onClick="openMuseums"
-            android:id="@+id/museums"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/museomadrid" />
 
         <ImageView
+            android:id="@+id/taxi"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/taxitwo"
             android:onClick="openTransport"
-            android:id="@+id/taxi"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/taxitwo" />
     </LinearLayout>
 
 </LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_phrases"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/localimage"
+        android:layout_width="88dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/madridlogo" />
+
+    <LinearLayout
+        android:id="@+id/bussinessnameholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/bussinessname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2F1D1A"
+            android:textStyle="bold"
+            tools:text="Bar Manolo " />
+
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceListItemSmall"
+                android:textColor="#2F1D1A"
+                tools:text="Calle Sierpes 25, Madrid" />
+
+            <TextView
+                android:id="@+id/timetable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="#2F1D1A"
+                tools:text="From 08:00 to 00:30" />
+
+            <TextView
+                android:id="@+id/telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="#2F1D1A"
+                tools:text="From 08:00 to 00:30" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

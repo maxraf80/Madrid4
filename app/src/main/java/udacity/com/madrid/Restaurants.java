@@ -11,7 +11,7 @@ public class Restaurants extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bussiness_list);
+        setContentView(R.layout.bussiness);
 
         ArrayList<City> bussiness = new ArrayList<City>();
 
@@ -28,7 +28,7 @@ public class Restaurants extends AppCompatActivity {
 
 
         CityAdapter adapter = new CityAdapter(this, bussiness);
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = (ListView) findViewById(R.id.listtwo);
         listView.setAdapter(adapter);
 
 

@@ -36,7 +36,7 @@ public class BussinessAdapter extends ArrayAdapter<City> {
         address.setText(currentCity.getAddress());
 
         TextView telephone = (TextView) listItemView.findViewById(R.id.telephone);
-        telephone.setText(currentCity.getTimetable());
+        telephone.setText(currentCity.getTelephone());
 
         TextView timetable = (TextView) listItemView.findViewById(R.id.timetable);
         timetable.setText(currentCity.getTimetable());

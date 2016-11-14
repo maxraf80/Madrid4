@@ -27,7 +27,7 @@ public class Restaurants extends AppCompatActivity {
         bussiness.add(new City("La Dolores", "Plaza de Jesús, 4 ", "(+)34 91 429 22 43", "Mo to Th. from 11 a 01 h Fr-Sat 11 to 02h Su  11 to 01h.", R.drawable.la_dolores));
 
 
-        CityAdapter adapter = new CityAdapter(this, bussiness);
+        BussinessAdapter adapter = new BussinessAdapter(this, bussiness);
         ListView listView = (ListView) findViewById(R.id.listtwo);
         listView.setAdapter(adapter);
 

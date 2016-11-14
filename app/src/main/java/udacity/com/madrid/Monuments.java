@@ -35,7 +35,7 @@ public class Monuments extends AppCompatActivity{
         city.add(new City("Plaza Mayor", "The Plaza Mayor (English Main Square) was built during Philip III's reign (1598–1621) and is a central plaza in the city of Madrid, Spain. It is located only a few Spanish blocks away from another famous plaza, the Puerta del Sol. The Plaza Mayor is rectangular in shape, measuring 129 m × 94 m (423 ft × 308 ft), and is surrounded by three-story residential buildings having 237 balconies facing the Plaza. It has a total of nine entrance ways. The Casa de la Panadería (Bakery House), serving municipal and cultural functions, dominates the Plaza Mayor.",
                 "+34 917 01 22 10 ", "Outdoor Monument", "Plaza Mayor, Madrid", R.drawable.plaza_mayor_dos));
 
-        BussinessAdapter adapter = new BussinessAdapter(this, city);
+        CityAdapter adapter = new CityAdapter(this, city);
         ListView listView=(ListView)findViewById(R.id.list);
         listView.setAdapter(adapter);
 

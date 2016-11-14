@@ -6,15 +6,15 @@ public class City {
     private String telephone;
     private String timetable;
     private String address;
-    private int    imageResourceId;
+    private int imageResourceId;
 
     public City(String mAtraction, String mDescription, String mTelephone, String mTimetable, String maddress, int mImageresourceId) {
 
 
-        atraction=mAtraction;
-        description=mDescription;
-        telephone=mTelephone;
-        timetable=mTimetable;
+        atraction = mAtraction;
+        description = mDescription;
+        telephone = mTelephone;
+        timetable = mTimetable;
         address = maddress;
         imageResourceId = mImageresourceId
         ;
@@ -24,10 +24,10 @@ public class City {
     public City(String mAtraction, String mAddress, String mTelephone, String mTimetable, int mImageResourceId) {
 
 
-        atraction=mAtraction;
-        telephone=mTelephone;
+        atraction = mAtraction;
+        telephone = mTelephone;
         address = mAddress;
-        timetable=mTimetable;
+        timetable = mTimetable;
         imageResourceId = mImageResourceId;
 
 

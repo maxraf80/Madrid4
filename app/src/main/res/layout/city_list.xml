@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:onClick="Calling"
+           
             android:textColor="#2F1D1A"
             android:textSize="15sp"
             tools:text="+34 955 761 739" />

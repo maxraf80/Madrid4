@@ -15,7 +15,7 @@
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <ImageView
+         <ImageView
             android:id="@+id/madrid"
             android:layout_width="0dp"
             android:layout_height="fill_parent"

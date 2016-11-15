@@ -1,40 +1,50 @@
 package udacity.com.madrid;
 
 public class City {
-    private String atraction;
+    private String attraction;
     private String description;
     private String telephone;
     private String timetable;
     private String address;
     private int imageResourceId;
+    private double valutation;
 
-    public City(String mAtraction, String mDescription, String mTelephone, String mTimetable, String maddress, int mImageresourceId) {
+    public City(String mAttraction, String mDescription, String mTelephone, String mTimetable, String mAddress, int mImageResourceId) {
 
 
-        atraction = mAtraction;
+        attraction = mAttraction;
         description = mDescription;
         telephone = mTelephone;
         timetable = mTimetable;
-        address = maddress;
-        imageResourceId = mImageresourceId
+        address = mAddress;
+        imageResourceId = mImageResourceId
         ;
     }
 
 
-    public City(String mAtraction, String mAddress, String mTelephone, String mTimetable, int mImageResourceId) {
+    public City(String mAttraction, String mAddress, String mTelephone, String mTimetable, int mImageResourceId) {
 
 
-        atraction = mAtraction;
+        attraction = mAttraction;
         telephone = mTelephone;
         address = mAddress;
         timetable = mTimetable;
+        imageResourceId = mImageResourceId;}
+
+
+    public City (String mAttraction, String mAddress, String mTelephone,int mImageResourceId, double mValutation){
+
+        attraction = mAttraction;
+        address = mAddress;
+        telephone = mTelephone;
+        valutation=mValutation;
         imageResourceId = mImageResourceId;
-
-
     }
 
+
+
     public String getAtraction() {
-        return atraction;
+        return attraction;
     }
 
     public String getDescription() {
@@ -56,4 +66,6 @@ public class City {
     public int getImageResourceId() {
         return imageResourceId;
     }
+
+    public double getValutation(){return  valutation;}
 }

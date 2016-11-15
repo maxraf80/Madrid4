@@ -11,8 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class CityAdapter extends ArrayAdapter<City> {
-    public CityAdapter
+public class CityAdapter extends ArrayAdapter<City> {public CityAdapter
             (Context context, ArrayList<City> city) {
         super(context, 0, city);
     }

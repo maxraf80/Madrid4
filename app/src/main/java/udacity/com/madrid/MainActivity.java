@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final ImageView hotel=(ImageView)findViewById(R.id.hotel);
+        hotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            Intent hotelIntent = new Intent(MainActivity.this, Hotel.class);
+            startActivity(hotelIntent);
+            }});
+
 
     }
 }

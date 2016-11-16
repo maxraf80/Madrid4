@@ -14,6 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="5dp"
             android:background="@color/tan_background"
             android:orientation="horizontal">
 
@@ -21,7 +22,6 @@
             <RatingBar
                android:id="@+id/puntuacion"
                 android:layout_width="wrap_content"
-                android:layout_weight="1.56"
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 style="@style/RatingBar"

@@ -1,4 +1,5 @@
 package udacity.com.madrid;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView madrid = (ImageView)findViewById(R.id.madrid);
+        ImageView madrid = (ImageView) findViewById(R.id.madrid);
         madrid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,13 +31,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final ImageView hotel=(ImageView)findViewById(R.id.hotel);
+        ImageView hotel = (ImageView) findViewById(R.id.hotel);
         hotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent hotelIntent = new Intent(MainActivity.this, Hotel.class);
-            startActivity(hotelIntent);
-            }});
+                Intent hotelIntent = new Intent(MainActivity.this, Hotel.class);
+                startActivity(hotelIntent);
+            }
+        });
+
+        ImageView nightlife = (ImageView) findViewById(R.id.nightlife);
+        nightlife.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent nightLifeIntent = new Intent(MainActivity.this, NightLife.class);
+                startActivity(nightLifeIntent);
+            }
+        });
+
+        ImageView museums = (ImageView) findViewById(R.id.museums);
+        museums.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent museumsIntent = new Intent(MainActivity.this, Museums.class);
+                startActivity(museumsIntent);
+            }
+        });
 
 
     }

@@ -3,7 +3,6 @@ package udacity.com.madrid;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 public class Hotel extends AppCompatActivity{

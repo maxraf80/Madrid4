@@ -25,7 +25,10 @@
         <activity
             android:name=".Hotel"
             android:label="Hotels from Madrid"/>
-
+        <activity android:name=".NightLife"
+            android:label="Clubs from Madrid"/>
+        <activity android:name=".Museums"
+            android:label="Museums from Madrid"/>
 
     </application>
 

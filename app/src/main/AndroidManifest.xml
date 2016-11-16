@@ -29,7 +29,8 @@
             android:label="Clubs from Madrid"/>
         <activity android:name=".Museums"
             android:label="Museums from Madrid"/>
-
+    <activity android:name=".Transport"
+        android:label="Ways that you can use to move"/>
     </application>
 
 </manifest>

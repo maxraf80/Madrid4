@@ -27,5 +27,4 @@ public class NightLife extends AppCompatActivity {
         listView.setAdapter(adapter);
 
 
-    }
-}
+    }}

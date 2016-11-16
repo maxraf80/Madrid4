@@ -54,10 +54,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent museumsIntent = new Intent(MainActivity.this, Museums.class);
-                startActivity(museumsIntent);
-            }
-        });
+                startActivity(museumsIntent);}});
 
 
-    }
-}
+    ImageView transport = (ImageView) findViewById(R.id.taxi);
+    transport.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+        Intent transportIntent =new Intent(MainActivity.this,Transport.class);
+        startActivity(transportIntent);
+        }
+    });
+
+
+
+    }}

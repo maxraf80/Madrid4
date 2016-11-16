@@ -43,9 +43,7 @@ public class City {
 
 
 
-    public String getAtraction() {
-        return attraction;
-    }
+    public String getAtraction() { return attraction; }
 
     public String getDescription() {
         return description;

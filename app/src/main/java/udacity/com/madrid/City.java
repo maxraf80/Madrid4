@@ -32,7 +32,7 @@ public class City {
         imageResourceId = mImageResourceId;}
 
 
-    public City (String mAttraction, String mAddress, String mTelephone,int mImageResourceId, double mValutation){
+    public City (String mAttraction, String mAddress, String mTelephone, double mValutation,int mImageResourceId){
 
         attraction = mAttraction;
         address = mAddress;

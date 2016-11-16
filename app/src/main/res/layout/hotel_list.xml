@@ -19,9 +19,14 @@
 
 
             <RatingBar
+               android:id="@+id/puntuacion"
                 android:layout_width="wrap_content"
+                android:layout_weight="1.56"
                 android:layout_height="wrap_content"
-                android:id="@+id/puntuacion"/>
+                android:numStars="5"
+                style="@style/RatingBar"
+                android:stepSize="1"
+                android:rating="3"/>
             <TextView
                 android:id="@+id/bussinessname"
                 android:layout_width="0dp"

@@ -16,7 +16,7 @@ public class Museums extends AppCompatActivity{
         ArrayList<City> museums = new ArrayList<>();
 
         museums.add(new City("Museo Africano","Arturo Soria 101","(+34) 91.415.24.12","Su: 11:30",R.drawable.african));
-        museums.add(new City("Museo del Prado","Paseo Prado S/n","(+34) 91.330.28.00","Tu-Su: 10-20h",R.drawable.prado));
+        museums.add(new City("Museo del Prado","Paseo Prado S/n","(+34) 91.330.28.00","Tu-Su: 10-20h",R.drawable.pradodos));
         museums.add(new City("Museo de Historia","Calle Fuencarral 78.","(+34)  91.701.18.63","Tu-Su: 10-20h",R.drawable.historia));
         museums.add(new City("museo Cerralbo","Ventura Rodríguez 17","(+34) 91.547.36.46","Tu-Su: 09:30 -15h",R.drawable.cerralbo));
         museums.add(new City("Museo de Bellas Artes","Alcalá 13","(+34) 91-524 08 64","Tu-Su: 10-15h",R.drawable.bellas_artes));

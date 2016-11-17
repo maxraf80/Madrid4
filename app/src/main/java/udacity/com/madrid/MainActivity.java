@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         ImageView madrid = (ImageView) findViewById(R.id.madrid);
         madrid.setOnClickListener(new View.OnClickListener() {
             @Override

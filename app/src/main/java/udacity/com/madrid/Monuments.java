@@ -13,6 +13,7 @@ public class Monuments extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.city);
 
+
         ArrayList<City> city =new ArrayList<City>();
 
         city.add(new City("Plaza de Toros de las Ventas", "Plaza de Toros de Las Ventas (often shortened to Las Ventas) is a famous bullring located in Madrid, Spain.\n" +

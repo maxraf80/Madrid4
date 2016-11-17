@@ -18,19 +18,27 @@
 
         <activity
             android:name=".Monuments"
-            android:label="Information about the City" />
+            android:label="Information about the City"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Restaurants"
-            android:label="Restaurants from Madrid" />
+            android:label="Restaurants from Madrid"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Hotel"
-            android:label="Hotels from Madrid"/>
+            android:label="Hotels from Madrid"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".NightLife"
-            android:label="Clubs from Madrid"/>
+            android:label="Clubs from Madrid"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".Museums"
-            android:label="Museums from Madrid"/>
+            android:label="Museums from Madrid"
+            android:parentActivityName=".MainActivity"/>
     <activity android:name=".Transport"
-        android:label="Ways that you can use to move"/>
+        android:label="Ways that you can use to move"
+        android:parentActivityName=".MainActivity"/>
+<meta-data
+    android:name="android.support.PARENT_ACTIVITY"
+    android:value=".MainActivity"/>
     </application>
-
-</manifest>
+    </manifest>

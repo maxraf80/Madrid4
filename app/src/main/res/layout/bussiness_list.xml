@@ -20,7 +20,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="#2F1D1A"
             android:textStyle="bold"
-            tools:text="Bar Manolo " />
+            tools:text="@string/bussiness_name" />
 
         <LinearLayout
             android:layout_width="match_parent"

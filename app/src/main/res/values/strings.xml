@@ -1,3 +1,226 @@
 <resources>
+// Transport
+
     <string name="app_name">Madrid</string>
+    <string name="business_name">Bar Manolo</string>
+    <string name="transport_name">Cabify</string>
+    <string name="transport_name2">Car2go</string>
+    <string name="transport_name3">Taxi</string>
+    <string name="transport_name4">BiciMad</string>
+    <string name="transport_definition1">Cabify is an international transportation network company. It provides premium vehicles for hire via its smartphone mobile app. Vehicles are driven by their owners, who must pass a rigorous selection process. Operating in Latin America, Spain, and Portugal, the company offers two services, one for corporate clients and another for private passengers.As one of the biggest transportation network companies in the Spanish- and Portuguese-speaking world. Cabify operates in Mexico, Chile, Colombia, Peru, Brazil, Panama, Ecuador, Portugal and Spain. In early 2016, Cabify reported over one million installations globally, of which the grand majority were in Latin America and the rest in Spain.</string>
+    <string name="transport_definition2">Car2go is a subsidiary of Daimler AG providing carsharing services in European and North American cities. The company offers exclusively Smart Fortwo and Mercedes-Benz vehicles and features one-way point-to-point rentals. Users are charged by the minute, with hourly and daily rates available.[1] The service forgoes the typical centralized rental office, and cars are user-accessed wherever parked via a downloadable smartphone app.[citation needed] As of October 2016, car2go is the largest carsharing company in the world with over 2,000,000 members </string>
+    <string name="transport_definition3">Taxis can be hard to find during late hours on weekends, especially if there is some rain. Unlike in other European cities, there are few taxi stands; just stand by the side of a major road or bus stop and wave your hand to signal an available taxi passing by. Available taxis have a green libre sign in the windshield and a green light on top. Official taxis are white, and have a red stripe and the flag of Madrid on the front door. The tariff is displayed on top of the car (a 1 during daytime, a 2 during the night, which become 2 and 3 on holidays such as Christmas Eve).There are also special surcharges for entering or leaving the airport/train station. Ask for the written table of tariffs and charges (suplementos) (shown on small stickers on rear windows, compulsory by law) before paying if you think it\'s too expensive.Be aware there are some taxi drivers that will do what is called la vuelta al ruedo which basically means they will drive you around or through the crowded avenues to increase the fare.</string>
+    <string name="transport_definition4">Opened by Ana Botella, mayor of Madrid, on June 23, 2014, the service began with 1560 bicycles with electric assistance to pedal and 123 charging stations. In 2015, an extension process was carried out, increasing the number of bases to 165, as well as the number of bicycles to 2028, which ended in July of that year. For the new service have been extended in 70 kilometers the ciclocalles and ciclocarriles in the urban center of the city.</string>
+    <string name="transport_telephone1">600 00 00 00 </string>
+    <string name="transport_telephone2">911 30 94 73 </string>
+    <string name="transport_telephone3"> 914 804 613</string>
+    <string name="transport_telephone4"> </string>
+    <string name="transport_timetable1">24 hours service </string>
+    <string name="transport_address1">Whole Madrid Service </string>
+    <string name="transport_address2">Whitin the city centre</string>
+
+    // Monuments
+
+
+    <string name="monument_name1">Plaza de Toros de las Ventas </string>
+    <string name="monument_name2"> La Cibeles </string>
+    <string name="monument_name3"> Puerta del Sol </string>
+    <string name="monument_name4">Plaza Mayor, Madrid </string>
+
+    <string name="monument_definition1">Plaza de Toros de Las Ventas (often shortened to Las Ventas) is a famous bullring located in Madrid, Spain. Situated in the Guindalera quarter of the district of Salamanca, it was inaugurated on June 17, 1931. It has a seating capacity of 25,000. This bullring was designed by the architect José Espeliú in the Neo-Mudéjar (Moorish) style with ceramic incrustations. The seats are situated in the "tendidos".The price of the seats depends upon how close they are to the arena and whether they are in the sun or the shade (the latter being more expensive). The bullfighting season starts in March and ends in October; bullfights are held every day during the San Isidro Fiesta, and every Sunday or holiday during the season. Bullfights start at 6 or 7pm and last for two to three hours."Las Ventas" is located in the east of Madrid. </string>
+    <string name="monument_definition2"> The Plaza de Cibeles is a square with a neo-classical complex of marble sculptures with fountains that has become an iconic symbol for the city of Madrid. It sits at the intersection of Calle de Alcalá (running from east to west), Paseo de Recoletos (to the North) and Paseo del Prado (to the south). Plaza de Cibeles was originally named Plaza de Madrid, but in 1900, the City Council named it Plaza de Castelar, which was eventually replaced by its current name.
+                "It is currently delimited by four prominent buildings: The Bank of Spain, the Palacio de Buenavista, the Palacio de Linares and the Cybele Palace. These constructions are located in four different neighbourhoods from three different adjacent districts: Centro, Retiro and Salamanca.\n In the years Cybele Palace and her fountain have become symbolic monuments of the city.</string>
+    <string name="monument_definition3">"The Puerta del Sol (Spanish for \"Gate of the Sun\") is a public square in Madrid, one of the best known and busiest places in the city. This is the centre (Km 0) of the radial network of Spanish roads. The square also contains the famous clock whose bells mark the traditional eating of the Twelve Grapes and the beginning of a new year. The New Year\'s celebration has been broadcast live on national television since 31 December 1962." </string>
+    <string name="monument_definition4">The Plaza Mayor (English Main Square) was built during Philip III reign (1598–1621) and is a central plaza in the city of Madrid, Spain. It is located only a few Spanish blocks away from another famous plaza, the Puerta del Sol. The Plaza Mayor is rectangular in shape, measuring 129 m × 94 m (423 ft × 308 ft), and is surrounded by three-story residential buildings having 237 balconies facing the Plaza. It has a total of nine entrance ways. The Casa de la Panadería (Bakery House), serving municipal and cultural functions, dominates the Plaza Mayor." </string>
+
+    <string name="monument_telephone1"> +34 913 562 200 </string>
+    <string name="monument_telephone2"> +34 917 01 22 10 </string>
+    <string name="monument_telephone3"> +34 917 01 22 10 </string>
+    <string name="monument_telephone4"> +34 917 01 22 10  </string>
+
+    <string name="monument_timetable1">From 9 to 18h </string>
+    <string name="monument_timetable2"> Outdoor monument  </string>
+    <string name="monument_timetable3"> Outdoor monument  </string>
+    <string name="monument_timetable4"> Outdoor monument  </string>
+
+
+    <string name="monument_address1">Calle Alcalá 252, Madrid </string>
+    <string name="monument_address2">Calle de Alcala 3 , Madrid </string>
+    <string name="monument_address3">Puerta del Sol s/n, Madrid </string>
+    <string name="monument_address4">Plaza Mayor, Madrid </string>
+
+// Nightlife
+
+
+    <string name="club_name1">Arts Club </string>
+    <string name="club_name2">The Principal </string>
+    <string name="club_name3">Taüer  </string>
+    <string name="club_name4">Chatarra Cockatail Bar </string>
+    <string name="club_name5"> Macera</string>
+    <string name="club_name6">Tatel Madrid </string>
+
+
+    <string name="club_address1">Velalquez 96 </string>
+    <string name="club_address2">Marqués de Valdeiglesias, 1  </string>
+    <string name="club_address3">Camino de la Zarzuela 17 </string>
+    <string name="club_address4">Santa Teresa, 8 </string>
+    <string name="club_address5">San Mateo, 21 </string>
+    <string name="club_address6">Paseo de la Castellana 36 </string>
+
+
+    <string name="club_telephone1">(+34) 91 277 03 65 </string>
+    <string name="club_telephone2">(+34) 91 532 94 96 </string>
+    <string name="club_telephone3">(+34) 91 340 88 40 </string>
+    <string name="club_telephone4">(+34) 91 116 86 66 </string>
+    <string name="club_telephone5">(+34) 91 531 80 82 </string>
+    <string name="club_telephone6">(+34) 91 172 18 41 </string>
+
+
+
+    <string name="club_timetable1">Th /-Sa 19:00/-02:00 </string>
+    <string name="club_timetable2">Mo /-Su 19:00/-02:00 </string>
+    <string name="club_timetable3">Tu /–Su 18:00/-02:00 </string>
+    <string name="club_timetable4">We-Su 18:00 /-03:00 </string>
+    <string name="club_timetable5">Mo–Th 11–01 h Fr - Sat 11 /- 02h </string>
+    <string name="club_timetable6">We-Su 18:00 -03:00 </string>
+
+
+
+
+    // hotels
+
+
+    <string name="hotel_name1">Hotel Santo Mauro"</string>
+    <string name="hotel_name2">Meninas Hotel </string>
+    <string name="hotel_name3">Adler Hotel </string>
+    <string name="hotel_name4">URSO Hotel &amp; Spa </string>
+    <string name="hotel_name5">Hospes Puerta de Alcalá </string>
+    <string name="hotel_name6">Abalu </string>
+    <string name="hotel_name7">Abascal </string>
+    <string name="hotel_name8">Abba Atocha </string>
+    <string name="hotel_name9">Emperador </string>
+    <string name="hotel_name10">Diana Plus </string>
+
+    <string name="hotel_address1">Zurbano 36 </string>
+    <string name="hotel_address2">Campomanes, 7 </string>
+    <string name="hotel_address3">Velazquez 33 </string>
+    <string name="hotel_address4">Mejía Lequerica 8 </string>
+    <string name="hotel_address5">Plaza de la Independencia, 3  </string>
+    <string name="hotel_address6">Pez, 19 </string>
+    <string name="hotel_address7">José Abascal, 47 </string>
+    <string name="hotel_address8">Paseo Santa María de la Cabeza, 73 </string>
+    <string name="hotel_address9">Paseo de la Castellana, 220 </string>
+    <string name="hotel_address10">Gran Vía , 54 </string>
+
+    <string name="hotel_telephone1">914 41 45 00 </string>
+    <string name="hotel_telephone2">915 41 28 05 </string>
+    <string name="hotel_telephone3">914 26 32 20 </string>
+    <string name="hotel_telephone4">914 44 44 58 </string>
+    <string name="hotel_telephone5">914 32 29 11 </string>
+    <string name="hotel_telephone6">915 31 47 44 </string>
+    <string name="hotel_telephone7">914 41 00 15 </string>
+    <string name="hotel_telephone8">912 12 50 00 </string>
+    <string name="hotel_telephone9">915 47 28 00 </string>
+    <string name="hotel_telephone10">915 07 20 40 </string>
+
+
+    // Restaurants
+
+
+    <string name="restaurant_name1">Celso y Manolo </string>
+    <string name="restaurant_name2">Taberna Pedraza </string>
+    <string name="restaurant_name3">La Gabinoteca </string>
+    <string name="restaurant_name4">Macera  </string>
+    <string name="restaurant_name5">Josealfredo Bar </string>
+    <string name="restaurant_name6">La Ardosa </string>
+    <string name="restaurant_name7">El Doble </string>
+    <string name="restaurant_name8">Toma Café </string>
+    <string name="restaurant_name9">Fábrica Maravillas </string>
+    <string name="restaurant_name10">La Dolores </string>
+
+
+
+
+    <string name="restaurant_address1">Libertad, 1 </string>
+    <string name="restaurant_address2">Ibiza, 38 </string>
+    <string name="restaurant_address3">Fernández de la Hoz, 53 </string>
+    <string name="restaurant_address4">San Mateo, 21 </string>
+    <string name="restaurant_address5">Silva, 22  </string>
+    <string name="restaurant_address6">Colón, 13  </string>
+    <string name="restaurant_address7">Ponzano, 58  </string>
+    <string name="restaurant_address8">Palma, 49  </string>
+    <string name="restaurant_address9">Valverde, 29  </string>
+    <string name="restaurant_address10">Plaza de Jesús, 4 </string>
+
+    <string name="restaurant_telephone1">(+)34 91 531 80 79 </string>
+    <string name="restaurant_telephone2">(+)34 91 032 72 00  </string>
+    <string name="restaurant_telephone3">(+)34 91 399 15 00 </string>
+    <string name="restaurant_telephone4">(+)34 91 531 80 82 </string>
+    <string name="restaurant_telephone5">(+)34 91 521 49 60 </string>
+    <string name="restaurant_telephone6">(+)34 91 521 49 79 </string>
+    <string name="restaurant_telephone7">(+)34 91 441 47 18 </string>
+    <string name="restaurant_telephone8">(+)34 91 702 56 20 </string>
+    <string name="restaurant_telephone9">(+)34 91 521 87 53 </string>
+    <string name="restaurant_telephone10">(+)34 91 429 22 43 </string>
+
+
+    <string name="restaurant_timetable1">Mo to Su from 13 to 17 and 20 to 24 h </string>
+    <string name="restaurant_timetable2">Mo to Su from 13 to 16:30 and 20:30 to 24 h </string>
+    <string name="restaurant_timetable3">Mo to Th. from 11 a 01 h Fr-Sat 11 to 02h Su  11 to 01h. </string>
+    <string name="restaurant_timetable4">Mo to Th. from 11 a 01 h Fr-Sat 11 to 02h Su  11 to 01h. </string>
+    <string name="restaurant_timetable5">Tu to We. from 13 a 01 h We-Sat 13 to 02h Su  13 to 23h. </string>
+    <string name="restaurant_timetable6">Mo to Fr. from 08:30 a 02 h Sat to Su 11:45 to 02:30h  </string>
+    <string name="restaurant_timetable7">Tu to We. from 13 a 01 h We-Sat 13 to 02h Su  13 to 23h. </string>
+    <string name="restaurant_timetable8">Mo to Fr. from 08:30 a 02 h Sat to Su 11:45 to 02:30h </string>
+    <string name="restaurant_timetable9">Mo to Fr. from 08:30 a 02 h Sat to Su 11:45 to 02:30h </string>
+    <string name="restaurant_timetable10">Mo to Th. from 11 a 01 h Fr-Sat 11 to 02h Su  11 to 01h. </string>
+
+
+    // clubss
+
+
+    <string name="museums_name1">Museo Africano </string>
+    <string name="museums_name2">Museo del Prado </string>
+    <string name="museums_name3">Museo de Historia </string>
+    <string name="museums_name4">Museo Cerralbo </string>
+    <string name="museums_name5">Museo de Bellas Artes </string>
+    <string name="museums_name6">Museo Thyssen </string>
+    <string name="museums_name7">Museo Romantico </string>
+
+    <string name="museums_address1">Arturo Soria 101 </string>
+    <string name="museums_address2">Paseo Prado S/n </string>
+    <string name="museums_address3">Calle Fuencarral 78 </string>
+    <string name="museums_address4">Ventura Rodríguez 17 </string>
+    <string name="museums_address5">Alcalá 13 </string>
+    <string name="museums_address6">Paseo del Prado 8 </string>
+    <string name="museums_address7">San Mateo 13 </string>
+
+    <string name="museums_telephone1">(+34) 91 415 24 12 </string>
+    <string name="museums_telephone2">(+34) 91 330 28 00 </string>
+    <string name="museums_telephone3">(+34) 91 701 18 63 </string>
+    <string name="museums_telephone4">(+34) 91 547 36 46 </string>
+    <string name="museums_telephone5">(+34) 91 524 08 64 </string>
+    <string name="museums_telephone6">(+34) 91 369 01 51 </string>
+    <string name="museums_telephone7">(+34) 91 448 10 45  </string>
+
+
+    <string name="museums_timetable1">Su: 11:30 </string>
+    <string name="museums_timetable2">Tu – Su: 10 – 20h </string>
+    <string name="museums_timetable3">Tu – Su: 10 – 20h </string>
+    <string name="museums_timetable4">Tu-Su: 09:30 -15h </string>
+    <string name="museums_timetable5">Tu–Su: 10–15h </string>
+    <string name="museums_timetable6">Mo: 12–16 Tu-Su: 10–19h </string>
+    <string name="museums_timetable7">Tu–Su: 10–15h </string>
+
+
+
+
+
+
+
+
+
+
+
+
 </resources>
